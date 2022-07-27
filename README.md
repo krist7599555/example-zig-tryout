@@ -2,10 +2,10 @@
 
 me try to learn zig lang
 
-firstly run to init project
+firstly dev:run
 
 ```bash
-zig init-exe
+zig run -O Debug ./src/main.zig
 ```
 
 install [language server (zls)](https://github.com/zigtools/zls/) to make vscode hover work
